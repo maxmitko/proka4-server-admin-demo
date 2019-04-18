@@ -1,0 +1,7 @@
+.blur {
+    transition-property: filter;
+}
+
+.blur-enter-done {
+    filter: blur(5px);
+}

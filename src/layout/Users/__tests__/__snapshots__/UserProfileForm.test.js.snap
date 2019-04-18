@@ -1,0 +1,251 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserProfileForm should render correctly 1`] = `
+<form
+  className="sc-iwsKbI fwbdgH"
+  onSubmit={[Function]}
+>
+  <div
+    className="sc-gZMcBi jKxSOa"
+  >
+    <div
+      className="sc-bZQynM eUVPzl"
+      color="default"
+      label="Логин"
+      onChange={[Function]}
+      value="sweet"
+    >
+      <label
+        className="sc-EHOje gRDODJ"
+      >
+        Логин
+      </label>
+      <div
+        className="sc-bxivhb bWaDTw"
+        color="default"
+        onClick={[Function]}
+      >
+        <input
+          className="sc-gzVnrw jBENIC"
+          onBlur={[Function]}
+          onChange={[Function]}
+          value="sweet"
+        />
+        <div
+          className="sc-ifAKCX bvcOXd"
+          color="default"
+        />
+      </div>
+    </div>
+    <div
+      className="sc-bZQynM eUVPzl"
+      color="default"
+      label="ФИО"
+      onChange={[Function]}
+      value="Моисеева Ульяна Дмитриевна"
+    >
+      <label
+        className="sc-EHOje gRDODJ"
+      >
+        ФИО
+      </label>
+      <div
+        className="sc-bxivhb bWaDTw"
+        color="default"
+        onClick={[Function]}
+      >
+        <input
+          className="sc-gzVnrw jBENIC"
+          onBlur={[Function]}
+          onChange={[Function]}
+          value="Моисеева Ульяна Дмитриевна"
+        />
+        <div
+          className="sc-ifAKCX bvcOXd"
+          color="default"
+        />
+      </div>
+    </div>
+    <div
+      className="sc-bZQynM eUVPzl"
+      color="default"
+      label="Почта"
+      onChange={[Function]}
+      value="ovosh@mail.ru"
+    >
+      <label
+        className="sc-EHOje gRDODJ"
+      >
+        Почта
+      </label>
+      <div
+        className="sc-bxivhb bWaDTw"
+        color="default"
+        onClick={[Function]}
+      >
+        <input
+          className="sc-gzVnrw jBENIC"
+          onBlur={[Function]}
+          onChange={[Function]}
+          value="ovosh@mail.ru"
+        />
+        <div
+          className="sc-ifAKCX bvcOXd"
+          color="default"
+        />
+      </div>
+    </div>
+    <div
+      className="sc-bZQynM eUVPzl"
+      color="default"
+      label="Кошелек (руб)"
+      onChange={[Function]}
+      value={1200}
+    >
+      <label
+        className="sc-EHOje gRDODJ"
+      >
+        Кошелек (руб)
+      </label>
+      <div
+        className="sc-bxivhb bWaDTw"
+        color="default"
+        onClick={[Function]}
+      >
+        <input
+          className="sc-gzVnrw jBENIC"
+          onBlur={[Function]}
+          onChange={[Function]}
+          value={1200}
+        />
+        <div
+          className="sc-ifAKCX bvcOXd"
+          color="default"
+        />
+      </div>
+    </div>
+    <div
+      className="sc-bZQynM eUVPzl"
+      color="default"
+      label="Телефон"
+      onChange={[Function]}
+      value=""
+    >
+      <label
+        className="sc-EHOje gRDODJ"
+      >
+        Телефон
+      </label>
+      <div
+        className="sc-bxivhb bWaDTw"
+        color="default"
+        onClick={[Function]}
+      >
+        <input
+          className="sc-gzVnrw jBENIC"
+          onBlur={[Function]}
+          onChange={[Function]}
+          value=""
+        />
+        <div
+          className="sc-ifAKCX bvcOXd"
+          color="default"
+        />
+      </div>
+    </div>
+    <div
+      className="sc-bZQynM eUVPzl"
+      color="default"
+      label="Пароль"
+      onChange={[Function]}
+      type="password"
+      value=""
+    >
+      <label
+        className="sc-EHOje gRDODJ"
+      >
+        Пароль
+      </label>
+      <div
+        className="sc-bxivhb bWaDTw"
+        color="default"
+        onClick={[Function]}
+      >
+        <input
+          className="sc-gzVnrw jBENIC"
+          onBlur={[Function]}
+          onChange={[Function]}
+          value=""
+        />
+        <div
+          className="sc-ifAKCX bvcOXd"
+          color="default"
+        />
+      </div>
+    </div>
+    <div
+      className="sc-bZQynM eUVPzl"
+      color="default"
+      label="Повторите пароль"
+      onChange={[Function]}
+      type="password"
+      value=""
+    >
+      <label
+        className="sc-EHOje gRDODJ"
+      >
+        Повторите пароль
+      </label>
+      <div
+        className="sc-bxivhb bWaDTw"
+        color="default"
+        onClick={[Function]}
+      >
+        <input
+          className="sc-gzVnrw jBENIC"
+          onBlur={[Function]}
+          onChange={[Function]}
+          value=""
+        />
+        <div
+          className="sc-ifAKCX bvcOXd"
+          color="default"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-gqjmRU fiXlRS"
+  >
+    <button
+      className="sc-VigVT hkvLFm sc-bdVaJa kbnHqY"
+      color="success"
+      size="medium"
+      type="submit"
+    >
+      <div
+        className="sc-htpNat hostrS"
+      >
+        Сохранить
+      </div>
+      <div
+        className="rtr-root sc-bwzfXH dsGjGK"
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        timeout={
+          Object {
+            "enter": 500,
+            "exit": 500,
+          }
+        }
+      >
+        <span />
+      </div>
+    </button>
+  </div>
+</form>
+`;

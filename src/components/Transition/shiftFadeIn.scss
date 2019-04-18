@@ -1,0 +1,15 @@
+.shift-fade {
+    opacity: 1;
+    transition-duration: 250ms;
+    transform: translate3d(0px, 0, 0);
+    transition-property: opacity, transform;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+}
+
+.shift-fade-enter {
+    opacity: 0;
+    transition-property: none;
+    transform: translate3d(-30px, 0, 0),
+}
