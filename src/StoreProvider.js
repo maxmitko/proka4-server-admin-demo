@@ -16,4 +16,6 @@ const store = createStore(
 
 sagaMiddleware.run(rootSaga);
 
-export default props => <StoreContext.Provider value={store} children={props.children} />
+const StoreProvider = props => <StoreContext.Provider value={store} children={props.children} />
+
+export default StoreProvider

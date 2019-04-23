@@ -3,4 +3,6 @@ import React from 'react';
 
 export const LocalesContext = React.createContext();
 
-export default props => <LocalesContext.Provider value={locales} children={props.children} />
+const LocalesProvider =  props => <LocalesContext.Provider value={locales} children={props.children} />
+
+export default LocalesProvider
