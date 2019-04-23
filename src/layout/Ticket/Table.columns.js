@@ -1,5 +1,5 @@
 import React from 'react'
-import Actions from '../GridView/Actions'
+import Actions from 'components/GridView/Actions'
 
 const сolumns = props => {
 

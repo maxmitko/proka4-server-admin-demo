@@ -12,9 +12,9 @@ import { actionCreator } from 'store/reducers/appointment'
 
 import Assignment from '@material-ui/icons/Assignment'
 
-import Actions from '../GridView/Actions'
-import Table from '../GridView/Table'
-import { ButtonNew, ButtonsWrapper, Label, TableWrapper } from '../GridView/Table.styled'
+import Actions from 'components/GridView/Actions'
+import Table from 'components/GridView/Table'
+import { ButtonNew, ButtonsWrapper, Label, TableWrapper } from 'components/GridView/Table.styled'
 import EditForm from './AppointmentEditForm'
 
 const AppointmentTable = props => {

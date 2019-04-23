@@ -8,8 +8,8 @@ import styled from 'styled-components';
 
 import Add from '@material-ui/icons/Add'
 
-import Table from '../GridView/Table';
-import { Label } from '../GridView/Table.styled'
+import Table from 'components/GridView/Table';
+import { Label } from 'components/GridView/Table.styled'
 import rawColumns from './Table.columns'
 
 const WeekTable = props => {

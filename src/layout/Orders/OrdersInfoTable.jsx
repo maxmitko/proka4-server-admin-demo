@@ -6,7 +6,7 @@ import { actionCreator as ordersBookActions } from 'store/reducers/ordersBook'
 import styled from 'styled-components';
 
 import { HeaderBadgeStyled } from '../Form/index'
-import Table from '../GridView/Table'
+import Table from 'components/GridView/Table'
 
 const TicketForm = props => {
 

@@ -13,8 +13,8 @@ import styled from 'styled-components'
 import FitnessCenter from '@material-ui/icons/FitnessCenter'
 
 import EditForm from '../ClientCard/EditForm'
-import Actions from '../GridView/Actions'
-import Table from '../GridView/Table'
+import Actions from 'components/GridView/Actions'
+import Table from 'components/GridView/Table'
 import { ButtonsWrapper } from '../Users/EditForm'
 
 const UserCardTable = props => {

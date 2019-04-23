@@ -1,9 +1,9 @@
 import React, { useEffect, useState, useCallback } from 'react'
 
-import Table from '../GridView/Table'
+import Table from 'components/GridView/Table'
 import Select from 'components/Select'
 import statusList from '../ClientRegistration/statusList'
-import Actions from '../GridView/Actions'
+import Actions from 'components/GridView/Actions'
 import Dialog from 'components/Dialog'
 import { useDispatch, useMappedState } from 'redux-react-hook';
 import { actionCreator } from 'store/reducers/clientVisit'

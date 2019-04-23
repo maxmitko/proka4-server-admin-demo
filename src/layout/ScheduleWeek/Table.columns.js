@@ -1,7 +1,7 @@
 import ColorBox from './ColorBox'
 import React from 'react'
 import Select from 'components/Select'
-import Actions from '../GridView/Actions'
+import Actions from 'components/GridView/Actions'
 
 const сolumns = props => {
 

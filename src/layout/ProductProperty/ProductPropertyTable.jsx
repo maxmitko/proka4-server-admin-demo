@@ -8,10 +8,10 @@ import React, { useCallback, useContext, useEffect, useState } from 'react'
 import { useDispatch, useMappedState } from 'redux-react-hook';
 import { actionCreator } from 'store/reducers/productProperty'
 import Modal from 'components/Modal'
-import Actions from '../GridView/Actions'
+import Actions from 'components/GridView/Actions'
 
-import Table from '../GridView/Table'
-import { ButtonNew, ButtonsWrapper, Label, TableWrapper } from '../GridView/Table.styled'
+import Table from 'components/GridView/Table'
+import { ButtonNew, ButtonsWrapper, Label, TableWrapper } from 'components/GridView/Table.styled'
 import EditForm from './EditForm'
 
 const ProductPropertyTable = props => {

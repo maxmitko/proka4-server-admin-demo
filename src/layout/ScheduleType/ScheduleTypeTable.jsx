@@ -9,11 +9,11 @@ import React, { useCallback, useContext, useEffect, useState } from 'react'
 import { useDispatch, useMappedState } from 'redux-react-hook';
 import { actionCreator, toggleActive } from 'store/reducers/scheduleType'
 import styled from 'styled-components';
-import Actions from '../GridView/Actions'
-import Toggle from '../GridView/Toggle'
+import Actions from 'components/GridView/Actions'
+import Toggle from 'components/GridView/Toggle'
 
-import Table from '../GridView/Table'
-import { ButtonNew, ButtonsWrapper, TableWrapper } from '../GridView/Table.styled'
+import Table from 'components/GridView/Table'
+import { ButtonNew, ButtonsWrapper, TableWrapper } from 'components/GridView/Table.styled'
 import EditForm from './EditForm'
 
 const ScheduleTypeTable = props => {

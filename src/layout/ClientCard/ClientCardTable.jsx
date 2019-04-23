@@ -9,8 +9,8 @@ import { useDispatch, useMappedState } from 'redux-react-hook';
 import { actionCreator, selectDefautStatus, selectStatus } from 'store/reducers/clientCard'
 
 import statusList from '../ClientRegistration/statusList'
-import Actions from '../GridView/Actions'
-import Table from '../GridView/Table'
+import Actions from 'components/GridView/Actions'
+import Table from 'components/GridView/Table'
 import EditForm from './EditForm'
 
 const ClientCardTable = props => {

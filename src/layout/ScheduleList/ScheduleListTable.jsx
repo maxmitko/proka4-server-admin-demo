@@ -13,10 +13,10 @@ import { actionCreator as weekActions } from 'store/reducers/scheduleWeek'
 
 import Assignment from '@material-ui/icons/Assignment'
 
-import Actions from '../GridView/Actions'
-import Table from '../GridView/Table'
-import { ButtonNew, ButtonsWrapper, Label, TableWrapper } from '../GridView/Table.styled'
-import Toggle from '../GridView/Toggle'
+import Actions from 'components/GridView/Actions'
+import Table from 'components/GridView/Table'
+import { ButtonNew, ButtonsWrapper, Label, TableWrapper } from 'components/GridView/Table.styled'
+import Toggle from 'components/GridView/Toggle'
 import ColorBox from './ColorBox'
 import EditForm from './EditForm'
 

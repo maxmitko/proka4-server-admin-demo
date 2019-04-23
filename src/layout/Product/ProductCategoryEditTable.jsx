@@ -7,8 +7,8 @@ import { fetchCategoryList } from 'store/reducers/productCategory'
 import { actionCreator } from 'store/reducers/productPropsEdit'
 import styled from 'styled-components'
 
-import Actions from '../GridView/Actions'
-import Table from '../GridView/Table'
+import Actions from 'components/GridView/Actions'
+import Table from 'components/GridView/Table'
 
 const ProductListTable = props => {
 

@@ -12,8 +12,8 @@ import { actionCreator } from 'store/reducers/ticket'
 
 import Assignment from '@material-ui/icons/Assignment'
 
-import Table from '../GridView/Table'
-import { ButtonNew, ButtonsWrapper, Label, TableWrapper } from '../GridView/Table.styled'
+import Table from 'components/GridView/Table'
+import { ButtonNew, ButtonsWrapper, Label, TableWrapper } from 'components/GridView/Table.styled'
 import EditForm from './TicketEditForm'
 import rawColumns from './Table.columns'
 
