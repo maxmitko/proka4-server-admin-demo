@@ -6,12 +6,12 @@ import React, { useCallback, useState } from 'react'
 import { useMappedState } from 'redux-react-hook';
 import styled from 'styled-components';
 
-import ClientCard from '../UserCard/UserCardTable'
-import UserProfileForm from './UserProfileForm'
+import UserCard from '../UserCard/UserCardTable'
+import UserProfile from '../UserProfile/UserProfile'
 
 const UsersForm = props => {
 
-    const mapState = useCallback(state => ({ ...state.users.crud, userCard: state.userCard }), [])
+    const mapState = useCallback(state => ({ userCard: state.userCard }), [])
 
     const { userCard } = useMappedState(mapState);
     const { formState, initialData } = props;
@@ -45,11 +45,11 @@ const UsersForm = props => {
             <TabContentWrapper>
 
                 <Tab isVisible={tabValue === 0}>
-                    <UserProfileForm formState={formState} initialData={initialData}/>
+                    <UserProfile formState={formState} initialData={initialData}/>
                 </Tab>
 
                 <Tab isVisible={tabValue === 1}>
-                    <ClientCard userId={initialData.id} />
+                    <UserCard userId={initialData.id} />
                 </Tab>
 
             </TabContentWrapper>
