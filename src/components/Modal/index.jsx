@@ -5,7 +5,6 @@ import styled, { css } from 'styled-components';
 import Fade from 'components/Transition/Fade'
 
 const modalElement = document.createElement('div');
-const modalRoot = document.getElementById('modal-root');
 
 function Modal(props) {
     
@@ -14,7 +13,7 @@ function Modal(props) {
     const overlayRef = useRef(null)
     
     useEffect(() => {
-        modalRoot.appendChild(modalElement);
+        document.getElementById('modal-root').appendChild(modalElement);
         document.addEventListener('mousedown', handleClickOutside);
         return () => document.removeEventListener('mousedown', handleClickOutside); // Clean up the subscription
     }, [])
