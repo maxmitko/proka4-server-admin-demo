@@ -15,7 +15,7 @@ import Assignment from '@material-ui/icons/Assignment'
 
 import Table from 'components/GridView/Table'
 import { ButtonNew, ButtonsWrapper, Content, Label, TableWrapper } from 'components/GridView/Table.styled'
-import EditForm from './EditForm'
+import EditForm from './UsersEditForm'
 
 const UsersTable = props => {
 

@@ -9,11 +9,11 @@ import styled from 'styled-components';
 import UserCard from '../UserCard/UserCardTable'
 import UserProfile from '../UserProfile/UserProfile'
 
-const UsersForm = props => {
+const UsersEditForm = props => {
 
-    const mapState = useCallback(state => ({ userCard: state.userCard }), [])
+    const mapState = useCallback(state => ({ cardCount: state.userCard.data.length }), [])
 
-    const { userCard } = useMappedState(mapState);
+    const { cardCount } = useMappedState(mapState);
     const { formState, initialData } = props;
 
     const [tabValue, setTabValue] = useState(0)
@@ -27,7 +27,7 @@ const UsersForm = props => {
                         onClick={() => setTabValue(0)}
                         variant="text"
                         color="white" >Личные данные
-                        </Button>
+                    </Button>
 
                     {!!initialData.id && <Button
                         active={tabValue === 1}
@@ -35,8 +35,8 @@ const UsersForm = props => {
                         variant="text"
                         color="white" >Карта клиента
                         <CornerBadge
-                            badgeContent={userCard.data.length}
-                            color={userCard.data.length === 0 ? "warning" : "success"}
+                            badgeContent={cardCount}
+                            color={cardCount === 0 ? "warning" : "success"}
                         />
                     </Button>}
                 </TabsButtonWrapper>
@@ -45,7 +45,7 @@ const UsersForm = props => {
             <TabContentWrapper>
 
                 <Tab isVisible={tabValue === 0}>
-                    <UserProfile formState={formState} initialData={initialData}/>
+                    <UserProfile formState={formState} initialData={initialData} />
                 </Tab>
 
                 <Tab isVisible={tabValue === 1}>
@@ -57,7 +57,7 @@ const UsersForm = props => {
     )
 }
 
-export default UsersForm
+export default UsersEditForm
 
 const Wrapper = styled(Paper)`
     width: 750px;
@@ -83,15 +83,5 @@ export const TabsButtonWrapper = styled.div`
     svg {
         margin-right: 8px;
         height: 21px;
-    }
-`
-
-export const ButtonsWrapper = styled.div`
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 20px;
-
-    > * {
-        margin-left: 20px;
     }
 `

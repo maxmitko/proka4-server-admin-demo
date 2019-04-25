@@ -15,7 +15,6 @@ import FitnessCenter from '@material-ui/icons/FitnessCenter'
 import EditForm from '../ClientCard/EditForm'
 import Actions from 'components/GridView/Actions'
 import Table from 'components/GridView/Table'
-import { ButtonsWrapper } from '../Users/EditForm'
 
 const UserCardTable = props => {
 
@@ -147,7 +146,6 @@ const UserCardTable = props => {
                     loading={loading}
                 />
             </TableWrapper>
-
             <ButtonsWrapper>
                 <Select
                     data={ticketSelectList}
@@ -164,6 +162,7 @@ const UserCardTable = props => {
                     disabled={!ticket}
                 >Добавить</Button>
             </ButtonsWrapper>
+
             <Modal isOpen={modal} onClose={() => setModal(false)} overlay top="200px">
                 <EditForm
                     initialData={initialData}
@@ -185,4 +184,14 @@ export default UserCardTable
 
 const TableWrapper = styled.div`
     min-height: 400px;
+`
+
+export const ButtonsWrapper = styled.div`
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+
+    > * {
+        margin-left: 20px;
+    }
 `

@@ -4,7 +4,7 @@ import { LocalesContext } from 'LocalesProvider'
 import React, { useContext, useState } from 'react'
 import styled from 'styled-components';
 
-const UserProfileForm = props => {
+const UserProfile = props => {
 
     const { formState, initialData } = props;
 
@@ -82,7 +82,7 @@ const UserProfileForm = props => {
     )
 }
 
-export default UserProfileForm
+export default UserProfile
 
 const FormStyled = styled.form`
     display: flex;
