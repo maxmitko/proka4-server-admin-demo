@@ -1,0 +1,961 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renderer UserCardTable should render correctly 1`] = `
+Array [
+  <div
+    className="sc-hzDkRC fZwiDW"
+  >
+    <div
+      className="sc-eHgmQL jvQohW"
+    >
+      <div
+        className="sc-jWBwVP gdAsra"
+      />
+      <table
+        className="sc-cvbbAY bisXyk"
+      >
+        <thead>
+          <tr>
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              №
+            </td>
+            <td>
+              Курс
+            </td>
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              Стоимость
+            </td>
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              Долг
+            </td>
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              Квота
+            </td>
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              Остаток
+            </td>
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              Дата покупки
+            </td>
+            <td>
+              
+            </td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            className="sc-hSdWYo cVheuo"
+            onClick={[Function]}
+          >
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              1
+            </td>
+            <td>
+              Бодифлекс
+            </td>
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              1500
+            </td>
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              0
+            </td>
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              11
+            </td>
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              5
+            </td>
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              28-01-2019
+            </td>
+            <td>
+              <div
+                className="sc-iAyFgw eaCSUU"
+              >
+                <button
+                  className="sc-bdVaJa kpKQwF"
+                  color="success"
+                  onClick={[Function]}
+                  size="medium"
+                >
+                  <div
+                    className="sc-htpNat hostrS"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-1"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    className="rtr-root sc-bwzfXH dsGjGK"
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    timeout={
+                      Object {
+                        "enter": 500,
+                        "exit": 500,
+                      }
+                    }
+                  >
+                    <span />
+                  </div>
+                </button>
+                <button
+                  className="sc-bdVaJa fsVEsd"
+                  color="danger"
+                  onClick={[Function]}
+                  size="medium"
+                >
+                  <div
+                    className="sc-htpNat hostrS"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-1"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    className="rtr-root sc-bwzfXH dsGjGK"
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    timeout={
+                      Object {
+                        "enter": 500,
+                        "exit": 500,
+                      }
+                    }
+                  >
+                    <span />
+                  </div>
+                </button>
+              </div>
+            </td>
+          </tr>
+          <tr
+            className="sc-hSdWYo cVheuo"
+            onClick={[Function]}
+          >
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              2
+            </td>
+            <td>
+              Тренинг "познай тело"
+            </td>
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              1600
+            </td>
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              0
+            </td>
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              8
+            </td>
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              6
+            </td>
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              28-01-2019
+            </td>
+            <td>
+              <div
+                className="sc-iAyFgw eaCSUU"
+              >
+                <button
+                  className="sc-bdVaJa kpKQwF"
+                  color="success"
+                  onClick={[Function]}
+                  size="medium"
+                >
+                  <div
+                    className="sc-htpNat hostrS"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-1"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    className="rtr-root sc-bwzfXH dsGjGK"
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    timeout={
+                      Object {
+                        "enter": 500,
+                        "exit": 500,
+                      }
+                    }
+                  >
+                    <span />
+                  </div>
+                </button>
+                <button
+                  className="sc-bdVaJa fsVEsd"
+                  color="danger"
+                  onClick={[Function]}
+                  size="medium"
+                >
+                  <div
+                    className="sc-htpNat hostrS"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-1"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    className="rtr-root sc-bwzfXH dsGjGK"
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    timeout={
+                      Object {
+                        "enter": 500,
+                        "exit": 500,
+                      }
+                    }
+                  >
+                    <span />
+                  </div>
+                </button>
+              </div>
+            </td>
+          </tr>
+          <tr
+            className="sc-hSdWYo cVheuo"
+            onClick={[Function]}
+          >
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              3
+            </td>
+            <td>
+              Королевская осанка
+            </td>
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              420
+            </td>
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              0
+            </td>
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              9
+            </td>
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              8
+            </td>
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              20-02-2019
+            </td>
+            <td>
+              <div
+                className="sc-iAyFgw eaCSUU"
+              >
+                <button
+                  className="sc-bdVaJa kpKQwF"
+                  color="success"
+                  onClick={[Function]}
+                  size="medium"
+                >
+                  <div
+                    className="sc-htpNat hostrS"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-1"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    className="rtr-root sc-bwzfXH dsGjGK"
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    timeout={
+                      Object {
+                        "enter": 500,
+                        "exit": 500,
+                      }
+                    }
+                  >
+                    <span />
+                  </div>
+                </button>
+                <button
+                  className="sc-bdVaJa fsVEsd"
+                  color="danger"
+                  onClick={[Function]}
+                  size="medium"
+                >
+                  <div
+                    className="sc-htpNat hostrS"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-1"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    className="rtr-root sc-bwzfXH dsGjGK"
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    timeout={
+                      Object {
+                        "enter": 500,
+                        "exit": 500,
+                      }
+                    }
+                  >
+                    <span />
+                  </div>
+                </button>
+              </div>
+            </td>
+          </tr>
+          <tr
+            className="sc-hSdWYo cVheuo"
+            onClick={[Function]}
+          >
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              4
+            </td>
+            <td>
+              Королевская осанка
+            </td>
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              700
+            </td>
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              0
+            </td>
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              6
+            </td>
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              5
+            </td>
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              20-02-2019
+            </td>
+            <td>
+              <div
+                className="sc-iAyFgw eaCSUU"
+              >
+                <button
+                  className="sc-bdVaJa kpKQwF"
+                  color="success"
+                  onClick={[Function]}
+                  size="medium"
+                >
+                  <div
+                    className="sc-htpNat hostrS"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-1"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    className="rtr-root sc-bwzfXH dsGjGK"
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    timeout={
+                      Object {
+                        "enter": 500,
+                        "exit": 500,
+                      }
+                    }
+                  >
+                    <span />
+                  </div>
+                </button>
+                <button
+                  className="sc-bdVaJa fsVEsd"
+                  color="danger"
+                  onClick={[Function]}
+                  size="medium"
+                >
+                  <div
+                    className="sc-htpNat hostrS"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-1"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    className="rtr-root sc-bwzfXH dsGjGK"
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    timeout={
+                      Object {
+                        "enter": 500,
+                        "exit": 500,
+                      }
+                    }
+                  >
+                    <span />
+                  </div>
+                </button>
+              </div>
+            </td>
+          </tr>
+          <tr
+            className="sc-hSdWYo cVheuo"
+            onClick={[Function]}
+          >
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              5
+            </td>
+            <td>
+              Королевская осанка
+            </td>
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              800
+            </td>
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              0
+            </td>
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              9
+            </td>
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              8
+            </td>
+            <td
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              20-02-2019
+            </td>
+            <td>
+              <div
+                className="sc-iAyFgw eaCSUU"
+              >
+                <button
+                  className="sc-bdVaJa kpKQwF"
+                  color="success"
+                  onClick={[Function]}
+                  size="medium"
+                >
+                  <div
+                    className="sc-htpNat hostrS"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-1"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    className="rtr-root sc-bwzfXH dsGjGK"
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    timeout={
+                      Object {
+                        "enter": 500,
+                        "exit": 500,
+                      }
+                    }
+                  >
+                    <span />
+                  </div>
+                </button>
+                <button
+                  className="sc-bdVaJa fsVEsd"
+                  color="danger"
+                  onClick={[Function]}
+                  size="medium"
+                >
+                  <div
+                    className="sc-htpNat hostrS"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-1"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    className="rtr-root sc-bwzfXH dsGjGK"
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    timeout={
+                      Object {
+                        "enter": 500,
+                        "exit": 500,
+                      }
+                    }
+                  >
+                    <span />
+                  </div>
+                </button>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>,
+  <div
+    className="sc-bRBYWo hodFoK"
+  >
+    <div
+      className="sc-fjdhpX dZTHV"
+      color="default"
+      data={Array []}
+      label={null}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="Выбирите абонимент"
+      value=""
+    >
+      <label
+        className="sc-jTzLTM dDUuVs"
+      />
+      <div
+        className="sc-gqjmRU elixZU"
+        color="default"
+        onClick={[Function]}
+      >
+        <div
+          className="sc-cSHVUG fkomLr"
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root-1"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"
+            />
+          </svg>
+        </div>
+        <input
+          className="sc-jzJRlG geYCmJ"
+          onBlur={[Function]}
+          onChange={[Function]}
+          placeholder="Выбирите абонимент"
+          value=""
+        />
+        <div
+          className="sc-kAzzGY dVttjy"
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root-1"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7 10l5 5 5-5z"
+            />
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+          </svg>
+        </div>
+        <div
+          className="sc-VigVT kdlbmq"
+          color="default"
+        />
+      </div>
+    </div>
+    <button
+      className="sc-bdVaJa bRuARb"
+      color="default"
+      disabled={true}
+      onClick={[Function]}
+      size="medium"
+      type="submit"
+    >
+      <div
+        className="sc-htpNat hostrS"
+      >
+        Добавить
+      </div>
+      <div
+        className="rtr-root sc-bwzfXH dsGjGK"
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        timeout={
+          Object {
+            "enter": 500,
+            "exit": 500,
+          }
+        }
+      >
+        <span />
+      </div>
+    </button>
+  </div>,
+]
+`;

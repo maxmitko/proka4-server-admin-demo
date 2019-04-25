@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`UserProfileForm should render correctly 1`] = `
+exports[`enzyme UserProfile default SNAPSHOT should render correctly 1`] = `
 <form
   className="sc-iwsKbI fwbdgH"
   onSubmit={[Function]}
@@ -129,7 +129,7 @@ exports[`UserProfileForm should render correctly 1`] = `
       color="default"
       label="Телефон"
       onChange={[Function]}
-      value=""
+      value="+79829998733"
     >
       <label
         className="sc-EHOje gRDODJ"
@@ -145,7 +145,7 @@ exports[`UserProfileForm should render correctly 1`] = `
           className="sc-gzVnrw jBENIC"
           onBlur={[Function]}
           onChange={[Function]}
-          value=""
+          value="+79829998733"
         />
         <div
           className="sc-ifAKCX bvcOXd"
