@@ -121,13 +121,15 @@ class Paginator extends React.PureComponent {
 
 Paginator.defaultProps = {
   pageNeighbours: 3,
+  defaultPage: 1,
 };
 
 Paginator.propTypes = {
   totalRecords: PropTypes.number,
   pageLimit: PropTypes.number,
   pageNeighbours: PropTypes.number,
-  onPageChanged: PropTypes.func
+  onPageChanged: PropTypes.func,
+  defaultPage: PropTypes.number,
 };
 
 export default Paginator;

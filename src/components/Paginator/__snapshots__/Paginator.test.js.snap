@@ -1,0 +1,395 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renderer Paginator default SNAPSHOT should render correctly 1`] = `
+.c2 {
+  border-radius: 0.2rem;
+  cursor: pointer;
+  min-height: auto;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  color: hsla(0,0%,100%,1);
+  font-family: 'Roboto Condensed',sans-serif;
+  font-size: 0.875rem;
+  -webkit-transition: 200ms cubic-bezier(0.4,0,0.2,1);
+  transition: 200ms cubic-bezier(0.4,0,0.2,1);
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  padding: 12px 17px;
+  background-color: hsla(291,64%,42%,1);
+  box-shadow: 0 1px 3px 0px hsla(0,0%,30%,0.4);
+  background-color: hsla(291,88%,57%,1);
+  box-shadow: 0 3px 4px 0px hsla(291,64%,54%,0.25), 2px 0px 4px 0px hsla(291,64%,54%,0.25), -2px 0px 4px 0px hsla(291,64%,54%,0.25);
+}
+
+.c2:disabled,
+.c2:hover:disabled {
+  opacity: 0.75;
+  cursor: auto;
+  box-shadow: none;
+}
+
+.c2:hover {
+  background-color: hsla(291,88%,57%,1);
+  box-shadow: 0 3px 4px 0px hsla(291,64%,54%,0.25), 2px 0px 4px 0px hsla(291,64%,54%,0.25), -2px 0px 4px 0px hsla(291,64%,54%,0.25);
+}
+
+.c2:disabled,
+.c2:hover:disabled {
+  background-color: hsla(291,64%,42%,1);
+}
+
+.c5 {
+  border-radius: 0.2rem;
+  cursor: pointer;
+  min-height: auto;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  color: hsla(0,0%,100%,1);
+  font-family: 'Roboto Condensed',sans-serif;
+  font-size: 0.875rem;
+  -webkit-transition: 200ms cubic-bezier(0.4,0,0.2,1);
+  transition: 200ms cubic-bezier(0.4,0,0.2,1);
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  padding: 12px 17px;
+  background-color: hsla(291,64%,42%,1);
+  box-shadow: 0 1px 3px 0px hsla(0,0%,30%,0.4);
+}
+
+.c5:disabled,
+.c5:hover:disabled {
+  opacity: 0.75;
+  cursor: auto;
+  box-shadow: none;
+}
+
+.c5:hover {
+  background-color: hsla(291,88%,57%,1);
+  box-shadow: 0 3px 4px 0px hsla(291,64%,54%,0.25), 2px 0px 4px 0px hsla(291,64%,54%,0.25), -2px 0px 4px 0px hsla(291,64%,54%,0.25);
+}
+
+.c5:disabled,
+.c5:hover:disabled {
+  background-color: hsla(291,64%,42%,1);
+}
+
+.c4 {
+  position: absolute !important;
+  border-radius: inherit;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.c3 {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  padding: 10px 15px;
+  margin: 3px;
+  display: block;
+  box-sizing: border-box;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+<div
+  className="c0"
+>
+  <button
+    className="c1 c2"
+    color="default"
+    onClick={[Function]}
+    size="medium"
+  >
+    <div
+      className="c3"
+    >
+      1
+    </div>
+    <div
+      className="rtr-root c4"
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      timeout={
+        Object {
+          "enter": 500,
+          "exit": 500,
+        }
+      }
+    >
+      <span />
+    </div>
+  </button>
+  <button
+    className="c1 c5"
+    color="default"
+    onClick={[Function]}
+    size="medium"
+  >
+    <div
+      className="c3"
+    >
+      2
+    </div>
+    <div
+      className="rtr-root c4"
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      timeout={
+        Object {
+          "enter": 500,
+          "exit": 500,
+        }
+      }
+    >
+      <span />
+    </div>
+  </button>
+  <button
+    className="c1 c5"
+    color="default"
+    onClick={[Function]}
+    size="medium"
+  >
+    <div
+      className="c3"
+    >
+      3
+    </div>
+    <div
+      className="rtr-root c4"
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      timeout={
+        Object {
+          "enter": 500,
+          "exit": 500,
+        }
+      }
+    >
+      <span />
+    </div>
+  </button>
+  <button
+    className="c1 c5"
+    color="default"
+    onClick={[Function]}
+    size="medium"
+  >
+    <div
+      className="c3"
+    >
+      4
+    </div>
+    <div
+      className="rtr-root c4"
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      timeout={
+        Object {
+          "enter": 500,
+          "exit": 500,
+        }
+      }
+    >
+      <span />
+    </div>
+  </button>
+  <button
+    className="c1 c5"
+    color="default"
+    onClick={[Function]}
+    size="medium"
+  >
+    <div
+      className="c3"
+    >
+      5
+    </div>
+    <div
+      className="rtr-root c4"
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      timeout={
+        Object {
+          "enter": 500,
+          "exit": 500,
+        }
+      }
+    >
+      <span />
+    </div>
+  </button>
+  <button
+    className="c1 c5"
+    color="default"
+    onClick={[Function]}
+    size="medium"
+  >
+    <div
+      className="c3"
+    >
+      6
+    </div>
+    <div
+      className="rtr-root c4"
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      timeout={
+        Object {
+          "enter": 500,
+          "exit": 500,
+        }
+      }
+    >
+      <span />
+    </div>
+  </button>
+  <button
+    className="c1 c5"
+    color="default"
+    onClick={[Function]}
+    size="medium"
+  >
+    <div
+      className="c3"
+    >
+      7
+    </div>
+    <div
+      className="rtr-root c4"
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      timeout={
+        Object {
+          "enter": 500,
+          "exit": 500,
+        }
+      }
+    >
+      <span />
+    </div>
+  </button>
+  <button
+    className="c1 c5"
+    color="default"
+    onClick={[Function]}
+    size="medium"
+  >
+    <div
+      className="c3"
+    >
+      &gt;
+    </div>
+    <div
+      className="rtr-root c4"
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      timeout={
+        Object {
+          "enter": 500,
+          "exit": 500,
+        }
+      }
+    >
+      <span />
+    </div>
+  </button>
+  <button
+    className="c1 c5"
+    color="default"
+    onClick={[Function]}
+    size="medium"
+  >
+    <div
+      className="c3"
+    >
+      13
+    </div>
+    <div
+      className="rtr-root c4"
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      timeout={
+        Object {
+          "enter": 500,
+          "exit": 500,
+        }
+      }
+    >
+      <span />
+    </div>
+  </button>
+</div>
+`;
