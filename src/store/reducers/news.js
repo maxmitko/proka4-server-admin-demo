@@ -6,6 +6,7 @@ import produce from 'immer'
 export const { handlers, constants, initialState, actionCreator } = new CrudFactory({ prefix: 'news' })
 
 const produceInitialState = produce(initialState, draftState => {
+    draftState.options.skip = 0
     draftState.options.take = 10
     draftState.options.order = { startDate: "DESC" }
 })
