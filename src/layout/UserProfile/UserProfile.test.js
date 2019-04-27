@@ -6,7 +6,7 @@ import renderer from 'react-test-renderer';
 import { ThemeProvider } from 'styled-components'
 import theme from 'theme/theme'
 
-import userProfileMock from '../__mocks__/userProfileMock'
+import userProfileMock from '../../__mocks__/userProfileMock'
 import TestComponent from './UserProfile';
 
 const withHOC = ui => (

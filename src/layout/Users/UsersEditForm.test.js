@@ -8,9 +8,9 @@ import { StoreContext } from 'redux-react-hook';
 import { ThemeProvider } from 'styled-components'
 import theme from 'theme/theme'
 
-import UserCardMock from '../__mocks__/UserCardMock'
+import UserCardMock from '../../__mocks__/UserCardMock'
 import UsersEditForm from './UsersEditForm';
-import UserProfileMock from '../__mocks__/userProfileMock'
+import UserProfileMock from '../../__mocks__/userProfileMock'
 import produce from 'immer'
 
 beforeAll(() => {

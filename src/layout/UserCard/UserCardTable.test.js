@@ -7,7 +7,7 @@ import { StoreContext } from 'redux-react-hook';
 import { ThemeProvider } from 'styled-components'
 import theme from 'theme/theme'
 
-import UserCardMock from '../__mocks__/UserCardMock'
+import UserCardMock from '../../__mocks__/UserCardMock'
 import TestComponent from './UserCardTable'
 
 beforeAll(() => {
