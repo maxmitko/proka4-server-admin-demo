@@ -5,45 +5,58 @@ import Text from 'components/Text'
 import Button from 'components/Button'
 import Close from '@material-ui/icons/Close'
 import Modal from 'components/Modal'
+import theme from 'theme/theme'
 
 const Notification = props => {
 
-    const { open, text, type, onClose, autoClose, hiddenButton } = props
+    const { open, text, type, onClose, autoClose, hiddenButton, modal } = props
 
     useEffect(() => {
-        if (autoClose) {
+        if (autoClose !== 0) {
             const close = setTimeout(onClose, autoClose)
             return () => clearTimeout(close)
         }
     })
 
-    return (
-        <Modal isOpen={open} zIndex={1500} top="20px" overlay={false} disableEvents={!!hiddenButton || !!autoClose}>
-            <MessageStyled color={type}>
-                <Text variant="body2" color="inherit">
-                    {text}
-                </Text>
-                {!hiddenButton && <CloseButton variant="text" onClick={onClose} color="white" round><Close /></CloseButton>}
-            </MessageStyled>
-        </Modal>
-    )
+    const modalProps = {
+        isOpen: open,
+        zIndex: 1500,
+        top: "20px",
+        overlay: false,
+        disableEvents: !!hiddenButton || !!autoClose
+    }
+    const Message =
+        <MessageStyled color={type} data-test-id="MessageStyled">
+            <Text variant="body2" color="inherit">
+                {text}
+            </Text>
+            {!hiddenButton && <CloseButton variant="text" onClick={onClose} color="white" round><Close /></CloseButton>}
+        </MessageStyled>
+
+    return modal
+        ? <Modal {...modalProps}>{Message}</Modal>
+        : Message
 }
 
 
 Notification.propsDefault = {
-    value: '',
-    color: 'default',
-    isOpen: false,
-    onClick: () => { },
-    autoClose: 0,
+    text: '',
+    type: 'default',
+    open: false,
+    onClose: () => { },
+    autoClose: 1250,
+    hiddenButton: false,
+    modal: true,
 }
 
 Notification.propTypes = {
-    value: T.string,
-    isOpen: T.bool,
-    onClick: T.func,
+    text: T.string,
+    type: T.oneOf(Object.keys(theme.extra)),
+    open: T.bool,
+    onClose: T.func,
     autoClose: T.number,
     hiddenButton: T.bool,
+    modal: T.bool,
 }
 
 export default Notification
