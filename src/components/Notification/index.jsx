@@ -12,7 +12,7 @@ const Notification = props => {
     const { open, text, type, onClose, autoClose, hiddenButton, modal } = props
     
     useEffect(() => {
-        if (autoClose !== 0) {
+        if (autoClose) {
             const close = setTimeout(onClose, autoClose)
             return () => clearTimeout(close)
         }
@@ -45,7 +45,7 @@ Notification.defaultProps  = {
     type: 'default',
     open: false,
     onClose: () => { },
-    autoClose: 1250,
+    autoClose: 0,
     hiddenButton: false,
     modal: true,
 }

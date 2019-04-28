@@ -15,7 +15,6 @@ const handlers = {
 export const initialState = {
     open: false,
     text: "",
-    autoClose: 0,
 }
 
 
