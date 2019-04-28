@@ -10,7 +10,7 @@ import theme from 'theme/theme'
 const Notification = props => {
 
     const { open, text, type, onClose, autoClose, hiddenButton, modal } = props
-
+    
     useEffect(() => {
         if (autoClose !== 0) {
             const close = setTimeout(onClose, autoClose)
@@ -25,6 +25,7 @@ const Notification = props => {
         overlay: false,
         disableEvents: !!hiddenButton || !!autoClose
     }
+    
     const Message =
         <MessageStyled color={type} data-test-id="MessageStyled">
             <Text variant="body2" color="inherit">
@@ -39,7 +40,7 @@ const Notification = props => {
 }
 
 
-Notification.propsDefault = {
+Notification.defaultProps  = {
     text: '',
     type: 'default',
     open: false,
