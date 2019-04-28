@@ -1,12 +1,20 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+import T from 'prop-types'
 import styled from 'styled-components'
+import theme from 'theme/theme'
 
-const Radio = props =>
-    <Wrapper {...props}>
-        <Input type="checkbox" {...props} />
-        {props.checked && <Dot />}
-    </Wrapper>
+const Radio = props => {
+
+    const { disabled, checked, color } = props
+
+    return (
+        <Wrapper {...props}>
+            <Input type="checkbox" disabled={disabled} />
+            {checked && <Dot disabled={disabled} color={color}/>}
+        </Wrapper>
+    )
+}
+
 
 Radio.defaultProps = {
     checked: false,
@@ -15,9 +23,9 @@ Radio.defaultProps = {
 }
 
 Radio.propTypes = {
-    checked: PropTypes.bool,
-    disabled: PropTypes.bool,
-    color: PropTypes.oneOf(['default', 'white', 'primary', 'success', 'warning', 'danger', 'info', 'rose']),
+    checked: T.bool,
+    disabled: T.bool,
+    color: T.oneOf(Object.keys(theme.extra)),
 }
 
 export default Radio
@@ -31,6 +39,7 @@ const Dot = styled.span`
     width: 100%;
     height: 100%;
     border-radius: 50%;
+    background-color: ${props => props.disabled ? "#ccc" : props.theme.extra[props.color]};
 `
 const Wrapper = styled.div`
     border-radius: 50%;
@@ -44,8 +53,4 @@ const Wrapper = styled.div`
     padding: 3px;
     min-width: ${props => props.theme.typography.subtitle1.fontSize + 0.2}rem;
     height: ${props => props.theme.typography.subtitle1.fontSize + 0.2}rem;
-
-    & ${Dot} {
-        background-color: ${props => props.disabled ? "#ccc" : props.theme.extra[props.color]};
-    }
 `
