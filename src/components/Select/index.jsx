@@ -3,6 +3,7 @@ import Text from 'components/Text'
 import T from 'prop-types'
 import React, { useEffect, useRef, useState, useCallback } from 'react'
 import TextField from 'components/TextField'
+import theme from 'theme/theme'
 
 import ArrowSvg from '@material-ui/icons/ArrowDropDown'
 
@@ -13,7 +14,7 @@ const Select = props => {
     const { color, data, value, onChange } = props
 
     const [isOpen, setOpen] = useState(false)
-    const [listBoundary, setListBoundary,] = useState({ x: null, y: null, width: null })
+    const [listBoundary, setListBoundary,] = useState({ top: null, left: null, width: null })
     const textFieldRef = useRef(null);
     const menuListRef = useRef(null);
 
@@ -27,8 +28,8 @@ const Select = props => {
             listYLip = listYLip < 0 ? Math.abs(listYLip) : 0
 
             setListBoundary({
-                top: field.y + field.height - listYLip + 2 + 'px',
-                left: field.x + 'px',
+                top: field.y + field.height - listYLip + 2,
+                left: field.x,
                 width: field.width
             })
         }
@@ -56,8 +57,8 @@ const Select = props => {
             <Modal
                 isOpen={isOpen}
                 onClose={useCallback(() => setOpen(false), [])}
-                top={listBoundary.top}
-                left={listBoundary.left}
+                top={!!listBoundary.top ? listBoundary.top + "px" : null}
+                left={!!listBoundary.left ? listBoundary.left + "px" : null}
             >
                 <ListStyled width={listBoundary.width} ref={menuListRef}>
                     {data.map(item =>
@@ -82,6 +83,7 @@ Select.defaultProps = {
     data: [],
     color: 'default',
     value: undefined,
+    onChange: () => {},
 };
 
 Select.propTypes = {
@@ -89,6 +91,7 @@ Select.propTypes = {
         value: T.any,
         label: T.string
     })),
+    color: T.oneOf(Object.keys(theme.extra)),
 };
 
 export default Select
