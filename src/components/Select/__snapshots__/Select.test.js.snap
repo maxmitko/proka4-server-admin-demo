@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`react-testing Select default SNAPSHOT should render correctly 1`] = `
+.c2 {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  min-width: 0;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: 'Roboto',sans-serif;
+  font-size: 0.875rem;
+  width: 100%;
+  height: 32px;
+  color: hsla(210,9%,31%,1);
+  border-bottom: 1px solid;
+  border-color: hsl(0,0%,67%);
+  height: 28px;
+}
+
+.c5 {
+  border-bottom: 1px solid hsl(0,0%,67%);
+}
+
+.c5::after {
+  content: "";
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  position: absolute;
+  pointer-events: none;
+  border-bottom: 2px solid hsla(291,64%,42%,1);
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+  pointer-events: none;
+}
+
+.c1 {
+  font-weight: 300;
+  color: hsl(0,0%,67%);
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: none;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  cursor: inherit;
+}
+
+.c0 label {
+  margin-right: 0.8rem;
+}
+
+.c3 {
+  cursor: inherit;
+  text-align: inherit;
+  font-size: inherit;
+  position: relative;
+  background-color: transparent;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: hsla(210,9%,31%,1);
+}
+
+.c3::-webkit-input-placeholder {
+  color: hsla(0,0%,67%,0.7);
+  opacity: 1;
+}
+
+.c3::-moz-placeholder {
+  color: hsla(0,0%,67%,0.7);
+  opacity: 1;
+}
+
+.c3:-ms-input-placeholder {
+  color: hsla(0,0%,67%,0.7);
+  opacity: 1;
+}
+
+.c3::placeholder {
+  color: hsla(0,0%,67%,0.7);
+  opacity: 1;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  pointer-events: none;
+  -webkit-transition: -webkit-transform 150ms linear;
+  -webkit-transition: transform 150ms linear;
+  transition: transform 150ms linear;
+}
+
+<div
+  className="c0"
+  color="default"
+  data={
+    Array [
+      Object {
+        "label": "item1",
+        "value": "item1",
+      },
+      Object {
+        "label": "item2",
+        "value": "item2",
+      },
+      Object {
+        "label": "item3",
+        "value": "item3",
+      },
+    ]
+  }
+  label={null}
+  onChange={[Function]}
+  onFocus={[Function]}
+  value=""
+>
+  <label
+    className="c1"
+  />
+  <div
+    className="c2"
+    color="default"
+    onClick={[Function]}
+  >
+    <input
+      className="c3"
+      onBlur={[Function]}
+      onChange={[Function]}
+      value=""
+    />
+    <div
+      className="c4"
+    >
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root-1"
+        focusable="false"
+        role="presentation"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M7 10l5 5 5-5z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+    </div>
+    <div
+      className="c5"
+      color="default"
+    />
+  </div>
+</div>
+`;
